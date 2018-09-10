@@ -6,6 +6,12 @@
  <meta name="description" content="">
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <script runat="server">
+ 
+ $(document).ready(() => {getJokeListener()});
+
+function getJokeListener() {
+  $("#get-joke").on("click", getJoke)
+}
 
 Platform.Load("Core","1.1.1");
 
