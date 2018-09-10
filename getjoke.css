@@ -1,0 +1,16 @@
+body {
+  background: #079e48;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#get-joke {
+ width: 40%;
+ margin: 0 auto;
+ text-align: center;
+ font-size: 20px;
+ position: fixed;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
